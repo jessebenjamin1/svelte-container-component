@@ -50,7 +50,7 @@ If you want to add additonal classes to your container, you can do so via the <c
 
 ## Spacing
 
-This component allows you to automatically vertically space all direct children. It's inspired by the VStack from [Chakra UI](chakra-ui.com/), but it uses CSS Grid instead of the fancy combo selector. To use this, you need to add the <code>stack</code> prop, and pass a value for <code>--spacing</code>, like this:
+This component allows you to automatically vertically space all direct children. It's inspired by the VStack from [Chakra UI](https://chakra-ui.com/), but it uses CSS Grid instead of the fancy combo selector. To use this, you need to add the <code>stack</code> prop, and pass a value for <code>--spacing</code>, like this:
 
 ```svelte
 <Container lg stack --spacing="1.5rem">
